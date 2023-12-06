@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:path/path.dart';
+import 'package:path/path.dart';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});
@@ -92,7 +92,6 @@ class _AuthScreenState extends State<AuthScreen> {
                       const SizedBox(
                         height: 20,
                       ),
-
                     ],
                   ),
                 ),
@@ -123,7 +122,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
                       backgroundColor:
-                          Theme.of(context).colorScheme.primaryContainer),00000000000000
+                          Theme.of(context).colorScheme.primaryContainer),
                   child: const Text('Login'),
                 ),
                 Row(
